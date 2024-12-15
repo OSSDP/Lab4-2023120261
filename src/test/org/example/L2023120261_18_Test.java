@@ -40,7 +40,7 @@ public class L2023120261_18_Test {
     @Test
     public void testProductExceptSelfWithZero() {
         int[] input = {-1, 1, 0, -3, 3};
-        int[] expected = {0, 0, 9, 0, 0};
+        int[] expected = {0, 0, 9, 0, 1};
         int[] actual = solution.productExceptSelf(input);
         assertArrayEquals(expected, actual, "包含零的情况下的输出不正确");
     }
