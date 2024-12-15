@@ -1,5 +1,5 @@
-package org.example;
 //2023120244 验证测试通过
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
